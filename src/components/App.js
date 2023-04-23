@@ -1,4 +1,9 @@
 import React from "react";
+import About from "./About"
+import NavBar from "./Navbar"
+import Home from "./Home"
+
+
 
 function NavBar() {
   return (
@@ -19,12 +24,10 @@ function Home() {
 {/* write an <About> component here */}
 
 
-function App() {
+function About() {
   return (
-    <div>
-      <NavBar />
-      {/* add the <Home> component here */}
-      {/* add your <About> component here */}
+    <div id="about">
+      <h2>About</h2>
     </div>
   );
 }
